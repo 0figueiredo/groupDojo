@@ -1,11 +1,19 @@
 const selectWilder = (wilders, idSelected) => {
-  for(let i=0 ; i < wilders.length ; i++ ){
-    if(wilders[i].id === idSelected){
-      wilders[i].selected = true
+  for (let i = 0; i < wilders.length; i++) {
+    if (wilders[i].id === idSelected) {
+      wilders[i].selected = true;
     }
   }
-  return wilders
 };
+
+/* const selectWilder = (wilders, idSelected) => {
+  wilders.map((wilder) => {
+    if (wilder.id === idSelected) {
+      wilder.selected = true;
+    }
+  });
+  return wilders;
+}; */
 
 const groupBySchoolWilders = () => null;
 
