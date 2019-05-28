@@ -6,7 +6,8 @@ const selectWilder = (wilders, idSelected) => {
   }
 };
 
-/* const selectWilder = (wilders, idSelected) => {
+/* With map
+const selectWilder = (wilders, idSelected) => {
   wilders.map((wilder) => {
     if (wilder.id === idSelected) {
       wilder.selected = true;
